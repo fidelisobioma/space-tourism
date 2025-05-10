@@ -56,25 +56,25 @@ function Crew() {
               <div
                 onClick={handleIndex0}
                 className={`size-3 rounded-full bg-gray-500 ${
-                  index == 0 ? "bg-gray-50" : ""
+                  index == 0 ? "bg-white" : ""
                 }`}
               ></div>
               <div
                 onClick={handleIndex1}
                 className={`size-3 rounded-full bg-gray-500 ${
-                  index == 1 ? "bg-gray-50" : ""
+                  index == 1 ? "bg-white" : ""
                 }`}
               ></div>
               <div
                 onClick={handleIndex2}
                 className={`size-3 rounded-full bg-gray-500 ${
-                  index == 2 ? "bg-gray-50" : ""
+                  index == 2 ? "bg-white" : ""
                 }`}
               ></div>
               <div
                 onClick={handleIndex3}
                 className={`size-3 rounded-full bg-gray-500 ${
-                  index == 3 ? "bg-gray-50" : ""
+                  index == 3 ? "bg-white" : ""
                 }`}
               ></div>
             </div>
@@ -89,25 +89,25 @@ function Crew() {
               <div
                 onClick={handleIndex0}
                 className={`size-3 rounded-full bg-gray-500 ${
-                  index == 0 ? "bg-gray-50" : ""
+                  index == 0 ? "bg-white" : ""
                 }`}
               ></div>
               <div
                 onClick={handleIndex1}
                 className={`size-3 rounded-full bg-gray-500 ${
-                  index == 1 ? "bg-gray-300" : ""
+                  index == 1 ? "bg-white" : ""
                 }`}
               ></div>
               <div
                 onClick={handleIndex2}
                 className={`size-3 rounded-full bg-gray-500 ${
-                  index == 2 ? "bg-gray-50" : ""
+                  index == 2 ? "bg-white" : ""
                 }`}
               ></div>
               <div
                 onClick={handleIndex3}
                 className={`size-3 rounded-full bg-gray-500 ${
-                  index == 3 ? "bg-gray-50" : ""
+                  index == 3 ? "bg-white" : ""
                 }`}
               ></div>
             </div>

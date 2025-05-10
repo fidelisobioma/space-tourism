@@ -41,7 +41,7 @@ function Technoloy() {
               <div
                 onClick={handleIndex0}
                 className={`size-12 border rounded-full p-6 text-2xl flex justify-center items-center text-white ${
-                  index == 0 ? "bg-white text-black" : ""
+                  index == 0 ? "bg-white text-slate-900" : ""
                 }`}
               >
                 1
@@ -49,7 +49,7 @@ function Technoloy() {
               <div
                 onClick={handleIndex1}
                 className={`size-12 border rounded-full p-6 text-2xl flex justify-center items-center text-white ${
-                  index == 1 ? "bg-white text-black" : ""
+                  index == 1 ? "bg-white text-slate-900" : ""
                 }`}
               >
                 2
@@ -57,7 +57,7 @@ function Technoloy() {
               <div
                 onClick={handleIndex2}
                 className={`size-12 border rounded-full p-6 text-2xl flex justify-center items-center text-white ${
-                  index == 2 ? "bg-white text-black" : ""
+                  index == 2 ? "bg-white text-slate-900" : ""
                 }`}
               >
                 3
