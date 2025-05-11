@@ -43,25 +43,33 @@ function Destination() {
           <div className="flex gap-4 justify-center md:justify-start mb-4">
             <div
               onClick={handleIndex0}
-              className={`text-white ${index == 0 ? "border-b" : ""}`}
+              className={`text-white hover:cursor-pointer ${
+                index == 0 ? "border-b" : ""
+              }`}
             >
               Moon
             </div>
             <div
               onClick={handleIndex1}
-              className={`text-white ${index == 1 ? "border-b" : ""}`}
+              className={`text-white hover:cursor-pointer ${
+                index == 1 ? "border-b" : ""
+              }`}
             >
               Mars
             </div>
             <div
               onClick={handleIndex2}
-              className={`text-white ${index == 2 ? "border-b" : ""}`}
+              className={`text-white hover:cursor-pointer ${
+                index == 2 ? "border-b" : ""
+              }`}
             >
               Europa
             </div>
             <div
               onClick={handleIndex3}
-              className={`text-white ${index == 3 ? "border-b" : ""}`}
+              className={`text-white hover:cursor-pointer ${
+                index == 3 ? "border-b" : ""
+              }`}
             >
               Titan
             </div>

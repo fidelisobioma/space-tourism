@@ -88,25 +88,25 @@ function Crew() {
             <div className=" gap-4 justify-start mt-12 hidden md:flex">
               <div
                 onClick={handleIndex0}
-                className={`size-3 rounded-full bg-gray-500 ${
+                className={`size-3 rounded-full bg-gray-500 hover:cursor-pointer ${
                   index == 0 ? "bg-white" : ""
                 }`}
               ></div>
               <div
                 onClick={handleIndex1}
-                className={`size-3 rounded-full bg-gray-500 ${
+                className={`size-3 rounded-full bg-gray-500 hover:cursor-pointer ${
                   index == 1 ? "bg-white" : ""
                 }`}
               ></div>
               <div
                 onClick={handleIndex2}
-                className={`size-3 rounded-full bg-gray-500 ${
+                className={`size-3 rounded-full bg-gray-500 hover:cursor-pointer ${
                   index == 2 ? "bg-white" : ""
                 }`}
               ></div>
               <div
                 onClick={handleIndex3}
-                className={`size-3 rounded-full bg-gray-500 ${
+                className={`size-3 rounded-full bg-gray-500 hover:cursor-pointer ${
                   index == 3 ? "bg-white" : ""
                 }`}
               ></div>

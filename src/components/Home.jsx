@@ -16,8 +16,11 @@ function Home() {
           </p>
         </div>
         <div>
-          <div className="size-[120px] md:size-[200px] rounded-full bg-white hover:cursor-pointer p-6 flex items-center justify-center m-auto text-2xl">
-            Explore
+          <div className="mt-12 md:mt-0 relative grid place-items-center">
+            <div className="relative z-10 size-[150px] rounded-full bg-white hover:cursor-pointer p-6 flex items-center justify-center m-auto text-2xl">
+              Explore
+            </div>
+            <div className="motion-safe:animate-pulse shadow-rs size-[150px] rounded-full bg-white absolute "></div>
           </div>
         </div>
       </div>

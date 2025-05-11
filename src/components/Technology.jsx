@@ -40,7 +40,7 @@ function Technoloy() {
             <div className="flex md:flex-col gap-8 justify-center  md:justify-start mt-6">
               <div
                 onClick={handleIndex0}
-                className={`size-12 border rounded-full p-6 text-2xl flex justify-center items-center text-gray-600 ${
+                className={`size-12 border rounded-full p-6 text-2xl flex justify-center items-center text-gray-600 hover:cursor-pointer ${
                   index == 0 ? "bg-white " : ""
                 }`}
               >
@@ -48,7 +48,7 @@ function Technoloy() {
               </div>
               <div
                 onClick={handleIndex1}
-                className={`size-12 border rounded-full p-6 text-2xl flex justify-center items-center text-gray-600 ${
+                className={`size-12 border rounded-full p-6 text-2xl flex justify-center items-center text-gray-600 hover:cursor-pointer ${
                   index == 1 ? "bg-white " : ""
                 }`}
               >
@@ -56,7 +56,7 @@ function Technoloy() {
               </div>
               <div
                 onClick={handleIndex2}
-                className={`size-12 border rounded-full p-6 text-2xl flex justify-center items-center text-gray-600 ${
+                className={`size-12 border rounded-full p-6 text-2xl flex justify-center items-center text-gray-600 hover:cursor-pointer ${
                   index == 2 ? "bg-white text-slate-900" : ""
                 }`}
               >

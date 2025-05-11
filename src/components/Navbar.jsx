@@ -33,7 +33,7 @@ function Navbar() {
         <nav
           className={
             sideBar
-              ? "w-[300px] h-full bg-slate-950 p-4 px-8 top-0 bg-opacity-90 fixed z-10 -right-0 transition-all duration-300"
+              ? "w-[300px] h-full bg-slate-950 p-4 px-8 top-0 bg-opacity-90 fixed z-50 -right-0 transition-all duration-300"
               : " w-0 overflow-hidden absolute"
           }
         >
@@ -50,7 +50,7 @@ function Navbar() {
                 className={({ isActive }) => (isActive ? "border-b-2 " : "")}
                 to="/"
               >
-                00 Home
+                <span className="text-gray-500">00</span> Home
               </NavLink>
             </li>
             <li>
@@ -58,7 +58,7 @@ function Navbar() {
                 to="/destination"
                 className={({ isActive }) => (isActive ? "border-b-2 " : "")}
               >
-                01 Destination
+                <span className="text-gray-500">01</span> Destination
               </NavLink>
             </li>
             <li>
@@ -66,7 +66,7 @@ function Navbar() {
                 to="/crew"
                 className={({ isActive }) => (isActive ? "border-b-2 " : "")}
               >
-                02 Crew
+                <span className="text-gray-500">02</span> Crew
               </NavLink>
             </li>
             <li>
@@ -74,7 +74,7 @@ function Navbar() {
                 to="/technology"
                 className={({ isActive }) => (isActive ? "border-b-2 " : "")}
               >
-                03 Technoloy
+                <span className="text-gray-500">0</span> Technoloy
               </NavLink>
             </li>
           </ul>
@@ -99,7 +99,9 @@ function Navbar() {
                 <li>
                   <NavLink
                     className={({ isActive }) =>
-                      `text-white  ${isActive ? "border-b-2 " : ""}`
+                      `text-gray-200 hover:text-gray-400  ${
+                        isActive ? "border-b-2 " : ""
+                      }`
                     }
                     to="/"
                   >
@@ -110,7 +112,9 @@ function Navbar() {
                   <NavLink
                     to="/destination"
                     className={({ isActive }) =>
-                      `text-white  ${isActive ? "border-b-2 " : ""}`
+                      `text-gray-200 hover:text-gray-400  ${
+                        isActive ? "border-b-2 " : ""
+                      }`
                     }
                   >
                     <span className="text-gray-500">01</span> Destination
@@ -120,7 +124,9 @@ function Navbar() {
                   <NavLink
                     to="/crew"
                     className={({ isActive }) =>
-                      `text-white  ${isActive ? "border-b-2 " : ""}`
+                      `text-gray-200 hover:text-gray-400  ${
+                        isActive ? "border-b-2 " : ""
+                      }`
                     }
                   >
                     <span className="text-gray-500">03</span> Crew
@@ -130,7 +136,9 @@ function Navbar() {
                   <NavLink
                     to="/technology"
                     className={({ isActive }) =>
-                      `text-white  ${isActive ? "border-b-2 " : ""}`
+                      `text-gray-200 hover:text-gray-400  ${
+                        isActive ? "border-b-2 " : ""
+                      }`
                     }
                   >
                     <span className="text-gray-500">04</span> Technoloy
