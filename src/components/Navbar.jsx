@@ -44,7 +44,7 @@ function Navbar() {
               className="w-full"
             />
           </div>
-          <ul className="flex flex-col gap-6 text-xl mt-20">
+          <ul className="flex flex-col gap-6 text-xl mt-20 font-sans">
             <li>
               <NavLink
                 className={({ isActive }) => (isActive ? "border-b-2 " : "")}
@@ -95,7 +95,7 @@ function Navbar() {
           <div className="grid relative items-center">
             <div className="hidden xl:block border border-gray-500 w-[350px] opacity-70 absolute -left-[300px] z-10"></div>
             <nav className="bg-slate-950 bg-opacity-70 p-16 lg:py-6 lg:px-32">
-              <ul className="flex  items-center gap-6 text-xl ">
+              <ul className="flex  items-center gap-6 text-xl font-sans">
                 <li>
                   <NavLink
                     className={({ isActive }) =>

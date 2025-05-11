@@ -38,7 +38,7 @@ function Crew() {
         <div className="md:flex flex-wrap justify-center items-end gap-10">
           <div>
             <h1 className="text-white text-center md:text-left md:text-2xl  md:w-[450px] mb-6 ">
-              <span className="text-gray-500">02</span> MEET YOUR CREW
+              <span className="text-gray-500 font-mono">02</span> MEET YOUR CREW
             </h1>
           </div>
           <div className="md:w-[350px]"></div>
@@ -80,11 +80,13 @@ function Crew() {
             </div>
           </div>
           <div className="text-center md:text-left leading-relaxed mt-4 text-white md:max-w-[450px]">
-            <p className="text-gray-300">{crewMember.role.toUpperCase()}</p>
-            <p className="text-white text-3xl md:mt-2">
+            <p className="text-gray-300 font-sans">
+              {crewMember.role.toUpperCase()}
+            </p>
+            <p className="text-white text-3xl md:mt-2 font-mono">
               {crewMember.name.toUpperCase()}
             </p>
-            <p className="md:mt-4">{crewMember.bio}</p>
+            <p className="md:mt-4 font-sans">{crewMember.bio}</p>
             <div className=" gap-4 justify-start mt-12 hidden md:flex">
               <div
                 onClick={handleIndex0}

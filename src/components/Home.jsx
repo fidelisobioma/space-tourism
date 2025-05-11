@@ -4,11 +4,13 @@ function Home() {
   return (
     <div className="bg-slate-900 bg-[url(/home/background-home-mobile.jpg)] md:bg-[url(/home/background-home-tablet.jpg)] lg:bg-[url(/home/background-home-desktop.jpg)] bg-cover bg-no-repeat min-h-screen  pb-3 grid  ">
       <Navbar />
-      <div className=" md:flex justify-center items-center lg:py-24 gap-[100px]">
+      <div className="font-sans md:flex justify-around items-center lg:py-24 gap-[100px]">
         <div className=" p-6 text-white text-center lg:text-left md:max-w-[600px]">
-          <p className="md:text-2xl text-gray-100">SO, YOU WANT TO TRAVEL TO</p>
-          <p className="text-6xl  py-8">Space</p>
-          <p className=" md:leading-relaxed text-gray-100">
+          <p className="md:text-2xl text-gray-100 font-mono">
+            SO, YOU WANT TO TRAVEL TO
+          </p>
+          <p className="text-6xl  py-8 font-mono">Space</p>
+          <p className=" md:leading-relaxed text-gray-100 font-sans">
             Let’s face it; if you want to go to space, you might as well
             genuinely go to outer space and not hover kind of on the edge of it.
             Well sit back, and relax because we’ll give you a truly out of this

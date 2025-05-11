@@ -22,7 +22,7 @@ function Technoloy() {
       <div className="md:mt-12 md:p-6">
         <div className="md:flex flex-wrap justify-center items-end gap-10 mt-4">
           <div>
-            <h1 className="text-white text-center md:text-left md:text-2xl  md:w-[450px] mb-6 ">
+            <h1 className="text-white text-center md:text-left md:text-2xl  md:w-[450px] mb-6 font-mono">
               <span className="text-gray-500">03</span> SPACE LAUNCH 101
             </h1>
           </div>
@@ -64,11 +64,11 @@ function Technoloy() {
               </div>
             </div>
             <div className="text-center md:text-left leading-relaxed  text-white md:max-w-[450px] p-6">
-              <p className="text-gray-500">THE TECHNOLOGY...</p>
-              <p className="text-white text-3xl md:mt-2">
+              <p className="text-gray-500 font-sans">THE TECHNOLOGY...</p>
+              <p className="text-white text-3xl md:mt-2 fonst-mono">
                 {technologies.name.toUpperCase()}
               </p>
-              <p className="md:mt-4">{technologies.description}</p>
+              <p className="md:mt-4 font-sans">{technologies.description}</p>
             </div>
           </div>
         </div>
