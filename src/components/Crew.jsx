@@ -80,7 +80,7 @@ function Crew() {
             </div>
           </div>
           <div className="text-center md:text-left leading-relaxed mt-4 text-white md:max-w-[450px]">
-            <p className="text-gray-500">{crewMember.role.toUpperCase()}</p>
+            <p className="text-gray-300">{crewMember.role.toUpperCase()}</p>
             <p className="text-white text-3xl md:mt-2">
               {crewMember.name.toUpperCase()}
             </p>

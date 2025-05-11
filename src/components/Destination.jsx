@@ -66,7 +66,6 @@ function Destination() {
               Titan
             </div>
           </div>
-          {/* <DestLinks /> */}
           <div className="text-white text-center md:text-left">
             <h2 className="text-6xl py-2">{space.name.toLocaleUpperCase()}</h2>
             <div className="leading-relaxed py-6">{space.description}</div>

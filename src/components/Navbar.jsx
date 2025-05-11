@@ -14,7 +14,13 @@ function Navbar() {
       <div className="p-6 text-white md:hidden ">
         <div className="flex justify-between items-center">
           <div>
-            <img src="/shared/logo.svg" alt="logo" />
+            <NavLink to="/">
+              <img
+                src="/shared/logo.svg"
+                alt="logo"
+                className="hover:cursor-pointer "
+              />
+            </NavLink>
           </div>
           <div className="size-8" onClick={handleOpen}>
             <img
@@ -77,59 +83,57 @@ function Navbar() {
       {/*md screen navbar */}
       <div className=" text-white hidden md:block  pl-6">
         <div className="flex  justify-between lg:items-center lg:mt-8">
-          <div className="size-24 self-center">
-            <img src="/shared/logo.svg" alt="logo" className="w-full" />
+          <div className="size-12 self-center">
+            <NavLink to="/">
+              <img
+                src="/shared/logo.svg"
+                alt="logo"
+                className="hover:cursor-pointer "
+              />
+            </NavLink>
           </div>
           <div className="grid relative items-center">
-            <div className="hidden xl:block border border-white w-[350px] opacity-70 absolute -left-[300px] z-10"></div>
+            <div className="hidden xl:block border border-gray-500 w-[350px] opacity-70 absolute -left-[300px] z-10"></div>
             <nav className="bg-slate-950 bg-opacity-70 p-16 lg:py-6 lg:px-32">
               <ul className="flex  items-center gap-6 text-xl ">
                 <li>
                   <NavLink
                     className={({ isActive }) =>
-                      `text-white font-semibold ${
-                        isActive ? "border-b-2 " : ""
-                      }`
+                      `text-white  ${isActive ? "border-b-2 " : ""}`
                     }
                     to="/"
                   >
-                    00 Home
+                    <span className="text-gray-500">00</span> Home
                   </NavLink>
                 </li>
                 <li>
                   <NavLink
                     to="/destination"
                     className={({ isActive }) =>
-                      `text-white font-semibold ${
-                        isActive ? "border-b-2 " : ""
-                      }`
+                      `text-white  ${isActive ? "border-b-2 " : ""}`
                     }
                   >
-                    01 Destination
+                    <span className="text-gray-500">01</span> Destination
                   </NavLink>
                 </li>
                 <li>
                   <NavLink
                     to="/crew"
                     className={({ isActive }) =>
-                      `text-white font-semibold ${
-                        isActive ? "border-b-2 " : ""
-                      }`
+                      `text-white  ${isActive ? "border-b-2 " : ""}`
                     }
                   >
-                    02 Crew
+                    <span className="text-gray-500">03</span> Crew
                   </NavLink>
                 </li>
                 <li>
                   <NavLink
                     to="/technology"
                     className={({ isActive }) =>
-                      `text-white font-semibold ${
-                        isActive ? "border-b-2 " : ""
-                      }`
+                      `text-white  ${isActive ? "border-b-2 " : ""}`
                     }
                   >
-                    03 Technoloy
+                    <span className="text-gray-500">04</span> Technoloy
                   </NavLink>
                 </li>
               </ul>
