@@ -74,7 +74,7 @@ function Navbar() {
                 to="/technology"
                 className={({ isActive }) => (isActive ? "border-b-2 " : "")}
               >
-                <span className="text-gray-500">0</span> Technoloy
+                <span className="text-gray-500">03</span> Technoloy
               </NavLink>
             </li>
           </ul>
