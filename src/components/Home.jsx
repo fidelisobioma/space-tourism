@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
 function Home() {
@@ -5,7 +6,7 @@ function Home() {
     <div className="bg-slate-900 bg-[url(/home/background-home-mobile.jpg)] md:bg-[url(/home/background-home-tablet.jpg)] lg:bg-[url(/home/background-home-desktop.jpg)] bg-cover bg-no-repeat min-h-screen  pb-3 grid  ">
       <Navbar />
       <div className="font-sans md:flex justify-around items-center lg:py-24 gap-[100px]">
-        <div className=" p-6 text-white text-center lg:text-left md:max-w-[600px]">
+        <div className=" p-6 text-white text-center md:text-left md:max-w-[600px]">
           <p className="md:text-2xl text-gray-100 font-mono">
             SO, YOU WANT TO TRAVEL TO
           </p>
@@ -17,14 +18,14 @@ function Home() {
             world experience!
           </p>
         </div>
-        <div>
+        <Link to="/destination">
           <div className="mt-12 md:mt-0 relative grid place-items-center">
             <div className="relative z-10 size-[150px] rounded-full bg-white hover:cursor-pointer p-6 flex items-center justify-center m-auto text-2xl">
               Explore
             </div>
             <div className="motion-safe:animate-pulse shadow-rs size-[150px] rounded-full bg-white absolute "></div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

@@ -5,7 +5,6 @@ function Crew() {
   const [index, setIndex] = useState(0);
   const crewMember = data.crew[index];
 
-  //logic to handle click option
   const handleIndex0 = () => {
     setIndex(0);
   };
@@ -18,14 +17,13 @@ function Crew() {
   const handleIndex3 = () => {
     setIndex(3);
   };
-  //logic to handle carousel
 
   useEffect(() => {
     const key = setInterval(() => {
       setIndex((index) =>
         index == data.crew.length - 1 ? (index = 0) : index + 1
       );
-    }, 5000);
+    }, 9000);
     return () => {
       clearInterval(key);
     };
@@ -43,7 +41,7 @@ function Crew() {
           </div>
           <div className="md:w-[350px]"></div>
         </div>
-        <div className="md:flex flex-row-reverse justify-center items-center gap-10">
+        <div className="md:flex flex-row-reverse justify-center items-center gap-10 transition-all duration-500">
           <div className="grid justify-center gap-4 ">
             <div className="md:max-w-[350px]">
               <img
